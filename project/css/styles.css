@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: Arial; */
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar,
+a {
+  display: flex;
+  background-color: #0a2f64;
+  color: #ffffff;
+  /* float: right; ไปทั้งก้อน*/
+  padding: 18px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  justify-content: flex-end;
+  /* align-items: flex-end; แก้แนวตั้ง โดนจำกัดความสูงเลยใช้ไม่ได้ */
+  /* align-items:right; */
+}
+
+.body {
+  margin-bottom: 80px;
+}
+
+.navbar a:hover {
+  background-color: darkgrey;
+  color: black;
+}
+
+.boxs {
+  padding: 8px;
+  padding-top: 16px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.name,
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+form {
+  border-radius: 8px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  width: auto;
+  padding: 20px;
+}
+
+.list {
+  padding-left: 30px;
+}
+
+
+.footer {
+  /* object-position: bottom;
+  background-color: #e7e9eb;
+  align-content: flex-end; */
+  position: fixed;
+  display: flex;
+  background: #8a8a8a;
+  text-align: center;
+  bottom: 0;
+  padding: 16px;
+  width: 100%;
+  color: white;
+  margin-right: 0;
+  justify-content: center;
+}
+
+.a-link {
+  display: inline;
+  background-color: #8a8a8a;
+  padding: 16px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #0C204F;
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.input {
+  background-color: #20315B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+  margin-left: 10px;
+}
+
+.input:hover {
+  background-color: #5276D0;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 520px) {
+  .navbar a {
+    padding: 5px;
+  }
+}
